@@ -18,6 +18,8 @@ body{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Pinyon Script', cursive;
 }
+
+
 #wrapper{
 	background: #fff;
 	margin-left: auto;
@@ -27,13 +29,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+@media (max-width:600px) or (min-width: 600px){
+
 header{
 	background: url("../images/burger.jpg") no-repeat center center/cover;
 	padding: 200px 0;
+	display: block;
   }
-
-
-
 
 #menusection{
 	background: red;
@@ -43,8 +45,26 @@ header{
 	position: relative;
 	background: url(../images/footer-food.png) no-repeat red 105% 120%;
 	background-size: 150px 150px;
+	display: block;
 
 }
+
+
+#contacts{
+ 	background: url("../images/food-plate2.jpg") no-repeat center center/cover;
+ 	display: block;
+ 	
+
+
+ }
+
+
+}
+
+
+
+
+
 
 #logocontainer{
 	width: 100px;
@@ -86,13 +106,7 @@ tr{
 height: 40px;
 }
  
- #contacts{
- 	background: url("../images/food-plate2.jpg") no-repeat center center/cover;
- 	
-
-
- }
-
+ 
  .overlay >h2{
  		text-align: center;
  		color: #fff;
@@ -156,6 +170,8 @@ form{
 	font-size: 16px;
 
 }
+
+
 
 
 
