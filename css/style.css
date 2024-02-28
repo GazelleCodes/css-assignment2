@@ -8,9 +8,6 @@
 }
 
 
-
-@media all and (min-width:600px) and (max-width: 1024px) {
-
 body{
 	background: #000;
 	
@@ -157,7 +154,6 @@ form{
 	border-radius: 10px;
 	font-weight: bold;
 	font-size: 16px;
-
 
 }
 
