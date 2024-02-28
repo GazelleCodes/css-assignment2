@@ -6,7 +6,10 @@
 	box-sizing: border-box;
 	font-family: 'Abel', sans-serif;
 }
-@media (max-width:600px) or (min-width: 600px){
+
+
+
+@media all and (min-width:600px) and (max-width: 1024px) {
 
 body{
 	background: #000;
@@ -26,10 +29,16 @@ h1, h2, h3, h4, h5, h6{
 	
 }
 
+
+@media all and (min-width:600px) and (max-width: 1024px) {
+
 header{
 	background: url("../images/burger.jpg") no-repeat center center/cover;
 	padding: 200px 0;
-}
+  }
+
+
+
 
 #menusection{
 	background: red;
@@ -153,5 +162,6 @@ form{
 
 
 }
-
 }
+
+
